@@ -30,7 +30,7 @@ knitr::opts_chunk$set(tidy=FALSE, fig.path='figure/')
 
 ## Loading and preprocessing the data
 
-Read "activity.csv" records into "actData"
+Read "activity.csv" records into "actData" 
 
 ```r
 actData <- read.csv("activity.csv", sep=",", header = TRUE, stringsAsFactors=FALSE, na.strings="NA")
